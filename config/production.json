@@ -1,0 +1,44 @@
+{
+  "name": "cote-d-ivoire",
+  "services": {
+    "repository": "https://github.com/OpenTermsArchive/cote-d-ivoire-declarations.git",
+    "declarationsPath": "./declarations"
+  },
+  "recorder": {
+    "versions": {
+      "storage": {
+        "git": {
+          "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/cote-d-ivoire-snapshots/commit/%SNAPSHOT_ID",
+          "repository": "git@github.com:OpenTermsArchive/cote-d-ivoire-versions.git",
+          "path": "./data/versions"
+        }
+      }
+    },
+    "snapshots": {
+      "storage": {
+        "git": {
+          "repository": "git@github.com:OpenTermsArchive/cote-d-ivoire-snapshots.git",
+          "path": "./data/snapshots"
+        }
+      }
+    }
+  },
+  "fetcher": {
+    "language": "en"
+  },
+  "notifier": {
+    "sendInBlue": {
+      "updatesListId": 0,
+      "updateTemplateId": 0
+    }
+  },
+  "tracker": {
+    "githubIssues": {
+      "repository": "OpenTermsArchive/cote-d-ivoire-declarations"
+    }
+  },
+  "dataset": {
+    "title": "cote-d-ivoire",
+    "versionsRepositoryURL": "https://github.com/OpenTermsArchive/cote-d-ivoire-versions"
+  }
+}

@@ -1,4 +1,8 @@
-# Open Terms Archive - Côte d'Ivoire declarations
+# Open Terms Archive - cote-d-ivoire services
+
+These services declarations are maintained by Open Terms Archive and tracked on [Open Terms Archive](https://opentermsarchive.org).
+
+- - -
 
 ## Scope
 
