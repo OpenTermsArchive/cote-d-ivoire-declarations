@@ -2,4 +2,4 @@ all:
   hosts:
     102.220.17.112:
       ansible_user: debian
-      ed25519_fingerprint: ${serverFingerprint}
+      ed25519_fingerprint: yzB/XdD/af++q1csB3ShOguHMWKRtIPJ9zZFEkhrs4Q
